@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="group_Test">
+	  <groups>
+		  <run>
+			  <exclude name="medium"></exclude>
+		  </run>
+	  </groups>
+    <classes>
+      <class name="TestNG_001.Groups_parameter"/>
+    </classes>
+  </test> <!-- group_Test -->
+</suite> <!-- Suite -->
